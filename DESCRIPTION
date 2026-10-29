@@ -1,0 +1,33 @@
+Package: selectivePredKit
+Title: Selective Classification with a Reject Option and Imbalance-Aware
+    Evaluation
+Version: 0.0.0.9000
+Authors@R:
+    person("Fatih", "Sağlam", , "saglamf89@gmail.com", role = c("aut", "cre"))
+Description: Selective classification (classification with a reject option,
+    also called abstention) on top of any already-trained probabilistic
+    classifier. From class probabilities, or posterior draws of them, the
+    package computes uncertainty scores (least confidence, margin, entropy,
+    predictive variance, mutual information), learns an acceptance threshold
+    from a target score, coverage or performance metric, and applies the
+    fitted selector to new data to decide whether to predict or abstain.
+    Includes the LABEL set-valued baseline (Sadinle et al., 2019).
+    It implements the class-conditional coverage-matching selection and the
+    imbalance-aware evaluation measures of Sağlam et al. (2026)
+    <doi:10.1016/j.jbi.2026.105084>: class-specific coverage, generalized
+    risk, the imbalance accuracy metric, and the areas under the
+    risk-coverage curves (AURC, AUGRC, AUAC, AUIC, CA-AURC, CA-AUGRC). The
+    package does not train models and does not depend on any modelling
+    framework.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.1.0)
+Imports:
+    graphics,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1

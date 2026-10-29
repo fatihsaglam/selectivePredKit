@@ -1,0 +1,27 @@
+bibentry(
+  "Article",
+  title = paste(
+    "Selective classification under imbalance in multiclass settings:",
+    "A novel metric for bias-aware risk-coverage evaluation"
+  ),
+  author = c(
+    person("Fatih", "Sağlam"),
+    person("Ünsal", "Özgen"),
+    person("Alper", "Uygun"),
+    person("Oğuz Salih", "Dinçer"),
+    person("Canan", "Albayrak")
+  ),
+  journal = "Journal of Biomedical Informatics",
+  year = "2026",
+  volume = "181",
+  pages = "105084",
+  doi = "10.1016/j.jbi.2026.105084",
+  header = "To cite the methods implemented in selectivePredKit, please use:",
+  textVersion = paste(
+    "Sağlam F, Özgen Ü, Uygun A, Dinçer OS, Albayrak C (2026).",
+    "Selective classification under imbalance in multiclass settings:",
+    "A novel metric for bias-aware risk-coverage evaluation.",
+    "Journal of Biomedical Informatics, 181, 105084.",
+    "doi:10.1016/j.jbi.2026.105084"
+  )
+)
