@@ -19,6 +19,8 @@ Description: Selective classification (classification with a reject option,
     risk-coverage curves (AURC, AUGRC, AUAC, AUIC, CA-AURC, CA-AUGRC). The
     package does not train models and does not depend on any modelling
     framework.
+URL: https://github.com/fatihsaglam/selectivePredKit
+BugReports: https://github.com/fatihsaglam/selectivePredKit/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

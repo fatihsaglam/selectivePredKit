@@ -24,12 +24,20 @@ prediction is withheld (abstain).
 \item \code{\link[=selective_curve]{selective_curve()}} and \code{\link[=aurc]{aurc()}} evaluate the risk-coverage trade-off.
 }
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/fatihsaglam/selectivePredKit}
+  \item Report bugs at \url{https://github.com/fatihsaglam/selectivePredKit/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: Fatih SaDlam \email{saglamf89@gmail.com}
+\strong{Maintainer}: Fatih Sağlam \email{saglamf89@gmail.com}
 
 Authors:
 \itemize{
-  \item Fatih SaDlam \email{saglamf89@gmail.com}
+  \item Fatih Sağlam \email{saglamf89@gmail.com}
 }
 
 }

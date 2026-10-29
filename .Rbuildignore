@@ -1,7 +1,9 @@
 ^.*\.Rproj$
-^\.Rproj\.user$
 ^LICENSE\.md$
+^NEWS\.md$
 ^README\.Rmd$
+^Rplots\.pdf$
+^\.Rhistory$
+^\.Rproj\.user$
 ^\.git$
 ^\.github$
-^NEWS\.md$
